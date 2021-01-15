@@ -33,7 +33,7 @@ public class CadastroSteps {
 
 	@Then("^efetuo meu cadastro$")
 	public void efetuoMeuCadastro() throws Throwable {
-	    
+	    acessoPage.efetuarCadastro();
 	}
 	
 
